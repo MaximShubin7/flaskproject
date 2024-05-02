@@ -14,7 +14,7 @@ from wtforms.validators import DataRequired
 from data import db_session
 from data.posts import Post
 from data.users import User
-
+#
 UPLOAD_FOLDER = './static/upload'
 app = Flask(__name__, static_folder="static")
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
